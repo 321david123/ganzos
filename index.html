@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ganzo's Mexican Restaurant — QC's Favorite Since the 1960s | Davenport, IA</title>
+  <meta name="description" content="Ganzo's Mexican Restaurant — a family owned and operated Davenport, Iowa taqueria serving three generations of passed-down family recipes since the early 1960s. Never go home hungry. Order online, dine in, happy hour daily." />
+  <meta name="theme-color" content="#f37736" />
+  <meta name="author" content="Ganzo's Mexican Restaurant" />
+  <link rel="canonical" href="https://www.ganzos.com/" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:site_name" content="Ganzo's Mexican Restaurant" />
+  <meta property="og:title" content="Ganzo's Mexican Restaurant — QC's Favorite Since the 1960s" />
+  <meta property="og:description" content="Three generations of passed-down family recipes in Davenport, Iowa. Never go home hungry." />
+  <meta property="og:image" content="https://www.ganzos.com/assets/tacos.jpg" />
+  <meta property="og:image:alt" content="Carne asada street tacos at Ganzo's Mexican Restaurant" />
+  <meta property="og:url" content="https://www.ganzos.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ganzo's Mexican Restaurant — QC's Favorite Since the 1960s" />
+  <meta name="twitter:description" content="Three generations of family recipes in Davenport, Iowa. Never go home hungry." />
+  <meta name="twitter:image" content="https://www.ganzos.com/assets/tacos.jpg" />
+
+  <!-- Favicon from real logo mark -->
+  <link rel="icon" type="image/png" href="assets/icon.png" />
+  <link rel="apple-touch-icon" href="assets/icon.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700;800;900&family=Mulish:wght@300;400;500;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet" />
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Ganzo's Mexican Restaurant",
+    "image": "https://www.ganzos.com/wp-content/uploads/2019/09/mexicanstyletacos.jpg",
+    "url": "https://www.ganzos.com",
+    "telephone": "+1-563-445-7833",
+    "servesCuisine": "Mexican",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "3923 N. Marquette St",
+      "addressLocality": "Davenport",
+      "addressRegion": "IA",
+      "postalCode": "52806",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Sunday"], "opens": "11:00", "closes": "21:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "11:00", "closes": "22:00"}
+    ],
+    "sameAs": [
+      "https://www.instagram.com/ganzosrestaurant/",
+      "https://www.facebook.com/ganzosrestaurant"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ============ SKIP LINK ============ -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__logo" aria-label="Ganzo's Mexican Restaurant home">
+        <img src="assets/logo-horizontal.png" alt="Ganzo's Mexican Restaurant" width="664" height="150" />
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#story">Our Story</a>
+        <a href="#dishes">Dishes</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#fiesta">Fiesta</a>
+        <a href="#visit">Visit</a>
+      </nav>
+      <div class="nav__actions">
+        <a class="btn btn--ghost nav__call" href="tel:563-445-7833" aria-label="Call Ganzo's">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.94.36 1.86.7 2.74a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.34-1.27a2 2 0 0 1 2.11-.45c.88.34 1.8.57 2.74.7A2 2 0 0 1 22 16.92z"/></svg>
+          <span>(563) 445-7833</span>
+        </a>
+        <a class="btn btn--primary" href="https://order.toasttab.com/online/ganzos" target="_blank" rel="noopener">Order Online</a>
+      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="overlayMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ MOBILE OVERLAY MENU ============ -->
+  <div class="overlay" id="overlayMenu" role="dialog" aria-modal="true" aria-label="Site menu" hidden>
+    <button class="overlay__close" id="overlayClose" aria-label="Close menu">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <nav class="overlay__nav" aria-label="Mobile">
+      <a href="#story">Our Story</a>
+      <a href="#dishes">Signature Dishes</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#fiesta">Cinco Fiesta</a>
+      <a href="#visit">Visit Us</a>
+    </nav>
+    <div class="overlay__cta">
+      <a class="btn btn--primary" href="https://order.toasttab.com/online/ganzos" target="_blank" rel="noopener">Order Online</a>
+      <a class="btn btn--ghost-light" href="tel:563-445-7833">Call (563) 445-7833</a>
+    </div>
+    <p class="overlay__tag">Bienvenidos a Ganzo's</p>
+  </div>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-label="Welcome to Ganzo's">
+      <div class="hero__media">
+        <img class="hero__img" src="assets/tacos.jpg" alt="Carne asada street tacos on a bright orange plate with lime, cilantro and onion" fetchpriority="high" />
+        <div class="hero__scrim"></div>
+      </div>
+      <!-- papel picado banner -->
+      <div class="papel" aria-hidden="true">
+        <svg viewBox="0 0 1200 60" preserveAspectRatio="none" width="100%" height="60">
+          <defs>
+            <pattern id="flag" width="120" height="60" patternUnits="userSpaceOnUse">
+              <path d="M0 0 H120 V32 L60 56 L0 32 Z" />
+              <circle cx="60" cy="20" r="6" class="cut"/>
+              <circle cx="30" cy="14" r="3" class="cut"/>
+              <circle cx="90" cy="14" r="3" class="cut"/>
+              <path d="M48 34 h24 v6 h-24 z" class="cut"/>
+            </pattern>
+          </defs>
+          <rect width="1200" height="60" fill="url(#flag)" />
+        </svg>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow" data-reveal>Bienvenidos a Ganzo's</p>
+        <h1 class="hero__title" data-reveal>
+          <span class="hero__line">Never go</span>
+          <span class="hero__line">home <em>hungry.</em></span>
+        </h1>
+        <p class="hero__sub" data-reveal>QC's favorite Mexican restaurant — three generations of family recipes, served in Davenport since the early 1960s.</p>
+        <div class="hero__cta" data-reveal>
+          <a class="btn btn--primary btn--lg" href="https://order.toasttab.com/online/ganzos" target="_blank" rel="noopener">Order Online</a>
+          <a class="btn btn--outline btn--lg" href="#menu">View the Menu</a>
+        </div>
+      </div>
+
+      <a href="#story" class="hero__scroll" aria-label="Scroll down">
+        <span>Scroll</span>
+        <svg width="18" height="28" viewBox="0 0 18 28" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="1" y="1" width="16" height="26" rx="8"/><line x1="9" y1="7" x2="9" y2="13" class="hero__scroll-dot"/></svg>
+      </a>
+    </section>
+
+    <!-- ============ TICKER ============ -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Bienvenidos a Ganzo's</span><span class="dot">&bull;</span>
+        <span>Family owned since the 1960s</span><span class="dot">&bull;</span>
+        <span>Three generations of recipes</span><span class="dot">&bull;</span>
+        <span>Never go home hungry</span><span class="dot">&bull;</span>
+        <span>QC's favorite Mexican restaurant</span><span class="dot">&bull;</span>
+        <span>Bienvenidos a Ganzo's</span><span class="dot">&bull;</span>
+        <span>Family owned since the 1960s</span><span class="dot">&bull;</span>
+        <span>Three generations of recipes</span><span class="dot">&bull;</span>
+        <span>Never go home hungry</span><span class="dot">&bull;</span>
+        <span>QC's favorite Mexican restaurant</span><span class="dot">&bull;</span>
+      </div>
+    </div>
+
+    <!-- ============ STORY ============ -->
+    <section class="story" id="story">
+      <div class="story__grid">
+        <div class="story__media" data-reveal>
+          <img src="assets/family.jpg" alt="Three generations of the Puente family in sombreros behind the Ganzo's counter" loading="lazy" decoding="async" width="3000" height="2384" />
+          <div class="story__badge">
+            <span class="story__badge-since">Est.</span>
+            <span class="story__badge-year">1960s</span>
+          </div>
+        </div>
+        <div class="story__copy">
+          <p class="eyebrow" data-reveal>Our Story</p>
+          <h2 class="section-title" data-reveal>Three generations.<br>One family table.</h2>
+          <p data-reveal>Ganzo's is a family owned and operated Mexican restaurant in Davenport, Iowa, serving our delicious family recipes to the greater Quad City area since the early 1960s.</p>
+          <p data-reveal>Founder John Ynocencio <em>"Ganzo"</em> Puente made one thing clear: when you come to Ganzo's, you will always leave satisfied. Whether you're a local or just passing through, come in and experience three generations of passed-down family recipes — now led by third-generation owner Pat Puente.</p>
+          <p class="story__quote" data-reveal>"Never go home hungry."</p>
+          <p class="story__attr" data-reveal>— John Ynocencio "Ganzo" Puente, Founder</p>
+
+          <div class="stats" data-reveal>
+            <div class="stat">
+              <span class="stat__num" data-count="3" data-suffix="">0</span>
+              <span class="stat__label">Generations of family recipes</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="60" data-prefix="" data-suffix="+">0</span>
+              <span class="stat__label">Years serving the Quad Cities</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num" data-count="50" data-prefix="$" data-suffix="K+">0</span>
+              <span class="stat__label">Raised for local non-profits</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SIGNATURE DISHES ============ -->
+    <section class="dishes" id="dishes">
+      <div class="dishes__head">
+        <p class="eyebrow" data-reveal>Why it's nacho ordinary taco</p>
+        <h2 class="section-title section-title--center" data-reveal>Signature dishes</h2>
+        <p class="dishes__intro" data-reveal>The plates the Quad Cities keep coming back for — made the same way, three generations running.</p>
+      </div>
+
+      <!-- Row 1 -->
+      <article class="dish">
+        <div class="dish__media" data-reveal>
+          <div class="dish__img-wrap"><img src="assets/tacos.jpg" alt="Carne asada Mexican-style street tacos with cilantro, onion and lime" loading="lazy" decoding="async" width="4032" height="3024" /></div>
+        </div>
+        <div class="dish__copy" data-reveal>
+          <span class="dish__index">01</span>
+          <h3 class="dish__title">Carne Asada Tacos</h3>
+          <p class="dish__desc">Mexican-style street tacos — tender grilled steak, fresh cilantro and onion, a squeeze of lime, doubled-up corn tortillas. Simple, honest, unforgettable.</p>
+          <span class="dish__price">$12</span>
+        </div>
+      </article>
+
+      <!-- Row 2 (reversed) -->
+      <article class="dish dish--rev">
+        <div class="dish__media" data-reveal>
+          <div class="dish__img-wrap"><img src="assets/tamales.jpg" alt="Tamale dinner with rice, refried beans and a frozen margarita" loading="lazy" decoding="async" width="4032" height="3024" /></div>
+        </div>
+        <div class="dish__copy" data-reveal>
+          <span class="dish__index">02</span>
+          <h3 class="dish__title">Tamale Dinner</h3>
+          <p class="dish__desc">House-made tamales steamed in the husk, plated as a full dinner with Mexican rice and refried beans. A recipe handed down, plate after plate, decade after decade.</p>
+          <span class="dish__price">$12.75</span>
+        </div>
+      </article>
+
+      <!-- Row 3 -->
+      <article class="dish">
+        <div class="dish__media" data-reveal>
+          <div class="dish__img-wrap"><img src="assets/enchiladas.jpg" alt="Cheese enchiladas in red sauce beside a strawberry margarita and a talavera bull" loading="lazy" decoding="async" width="4032" height="3024" /></div>
+        </div>
+        <div class="dish__copy" data-reveal>
+          <span class="dish__index">03</span>
+          <h3 class="dish__title">Enchilada Dinner</h3>
+          <p class="dish__desc">Rolled enchiladas smothered in our slow-simmered red sauce and blanketed in melted cheese, finished with crisp lettuce and pico. Comfort, the Ganzo's way.</p>
+          <span class="dish__price">$13</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ HAPPY HOUR BAND ============ -->
+    <section class="happy" aria-label="Happy hour">
+      <div class="happy__inner" data-reveal>
+        <div class="happy__text">
+          <p class="eyebrow eyebrow--light">Let's Happy Hour!</p>
+          <h2 class="happy__title">4 to 6, every day but Saturday</h2>
+          <p class="happy__sub">Your place to gather with friends and enjoy some of the best drinks in the QC. See you after work.</p>
+        </div>
+        <a class="btn btn--white btn--lg" href="#visit">Find Us &amp; Stop In</a>
+      </div>
+    </section>
+
+    <!-- ============ FULL MENU ============ -->
+    <section class="menu" id="menu">
+      <div class="menu__head">
+        <p class="eyebrow" data-reveal>From our familia to your table</p>
+        <h2 class="section-title section-title--center" data-reveal>The Menu</h2>
+        <p class="menu__intro" data-reveal>A taste of what's waiting. See the full menu and order online through Toast.</p>
+      </div>
+
+      <div class="menu__grid">
+        <div class="menu__col" data-reveal>
+          <h3 class="menu__section-title">Platos Populares</h3>
+          <p class="menu__section-sub">Popular dishes</p>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <span class="menu__name">Tamale Dinner</span>
+              <span class="menu__leader" aria-hidden="true"></span>
+              <span class="menu__price">$12.75</span>
+              <span class="menu__desc">House tamales served as a full dinner</span>
+            </li>
+            <li class="menu__item">
+              <span class="menu__name">Enchilada Dinner</span>
+              <span class="menu__leader" aria-hidden="true"></span>
+              <span class="menu__price">$13</span>
+              <span class="menu__desc">Mexican enchilada dinner, smothered in red sauce</span>
+            </li>
+            <li class="menu__item">
+              <span class="menu__name">Carne Asada Tacos</span>
+              <span class="menu__leader" aria-hidden="true"></span>
+              <span class="menu__price">$12</span>
+              <span class="menu__desc">Mexican-style steak street tacos</span>
+            </li>
+          </ul>
+
+          <h3 class="menu__section-title menu__section-title--mt">Specials</h3>
+          <p class="menu__section-sub">Daily features</p>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <span class="menu__name">Mini Macho</span>
+              <span class="menu__leader" aria-hidden="true"></span>
+              <span class="menu__price">$9.75</span>
+              <span class="menu__desc">Saturday daily special</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu__col" data-reveal>
+          <h3 class="menu__section-title">Customer Favorites</h3>
+          <p class="menu__section-sub">Crowd-pleasers from the QC</p>
+          <ul class="menu__list menu__list--noprice">
+            <li class="menu__item menu__item--simple"><span class="menu__name">Macho Nacho</span><span class="menu__desc">Loaded nachos — a perennial favorite</span></li>
+            <li class="menu__item menu__item--simple"><span class="menu__name">Queso Blanco</span><span class="menu__desc">Creamy white cheese dip</span></li>
+            <li class="menu__item menu__item--simple"><span class="menu__name">Chips &amp; Salsa</span><span class="menu__desc">House-made salsa, endlessly praised</span></li>
+            <li class="menu__item menu__item--simple"><span class="menu__name">Large Combo</span><span class="menu__desc">Build-your-own combination plate</span></li>
+            <li class="menu__item menu__item--simple"><span class="menu__name">Fajitas</span><span class="menu__desc">Sizzling steak or chicken fajitas</span></li>
+            <li class="menu__item menu__item--simple"><span class="menu__name">Carnitas</span><span class="menu__desc">Slow-cooked, tender pork</span></li>
+            <li class="menu__item menu__item--simple"><span class="menu__name">Flautas</span><span class="menu__desc">Crispy rolled and fried tacos</span></li>
+            <li class="menu__item menu__item--simple"><span class="menu__name">Chicken Enchiladas</span><span class="menu__desc">A house classic</span></li>
+            <li class="menu__item menu__item--simple"><span class="menu__name">Blue Lagoon Margarita</span><span class="menu__desc">Our signature, can't-miss margarita</span></li>
+          </ul>
+          <p class="menu__note">Full pricing and the complete menu live on our online ordering page.</p>
+        </div>
+      </div>
+
+      <div class="menu__foot" data-reveal>
+        <a class="btn btn--primary btn--lg" href="https://order.toasttab.com/online/ganzos" target="_blank" rel="noopener">See Full Menu &amp; Order</a>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery" id="gallery">
+      <div class="gallery__head">
+        <p class="eyebrow eyebrow--light" data-reveal>A feast for the eyes</p>
+        <h2 class="section-title section-title--center section-title--light" data-reveal>Gallery</h2>
+      </div>
+      <div class="swiper gallerySwiper" data-reveal>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><figure class="gallery__fig"><img src="assets/tacos.jpg" alt="Carne asada street tacos" loading="lazy" decoding="async" /><figcaption>Carne Asada Tacos</figcaption></figure></div>
+          <div class="swiper-slide"><figure class="gallery__fig"><img src="assets/enchiladas.jpg" alt="Enchilada dinner with margarita" loading="lazy" decoding="async" /><figcaption>Enchilada Dinner</figcaption></figure></div>
+          <div class="swiper-slide"><figure class="gallery__fig"><img src="assets/tamales.jpg" alt="Tamale dinner plate" loading="lazy" decoding="async" /><figcaption>Tamale Dinner</figcaption></figure></div>
+          <div class="swiper-slide"><figure class="gallery__fig"><img src="assets/our-food.jpg" alt="A spread of Ganzo's dishes" loading="lazy" decoding="async" /><figcaption>From Our Kitchen</figcaption></figure></div>
+          <div class="swiper-slide"><figure class="gallery__fig"><img src="assets/our-heritage.jpg" alt="The original 1960s Ganzo's food truck" loading="lazy" decoding="async" /><figcaption>Where It Began</figcaption></figure></div>
+          <div class="swiper-slide"><figure class="gallery__fig"><img src="assets/hero-pickup.jpg" alt="The Ganzo's restaurant exterior in Davenport" loading="lazy" decoding="async" /><figcaption>Our Home in Davenport</figcaption></figure></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="features" aria-label="What we offer">
+      <div class="features__grid">
+        <div class="feature" data-reveal>
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h13l3 4v6H3z"/><circle cx="7" cy="17" r="2"/><circle cx="16" cy="17" r="2"/></svg>
+          </span>
+          <h3>Order Online</h3>
+          <p>Pickup made easy through our Toast ordering page.</p>
+        </div>
+        <div class="feature" data-reveal>
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 2a5 5 0 0 1-10 0"/><path d="M7 22a5 5 0 0 1 10 0"/><path d="M7 12a5 5 0 0 0 10 0"/></svg>
+          </span>
+          <h3>Full Bar</h3>
+          <p>Margaritas, cervezas and the famous Blue Lagoon.</p>
+        </div>
+        <div class="feature" data-reveal>
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v8"/><path d="M5 10h14l-1 11H6z"/><path d="M9 6a3 3 0 0 1 6 0"/></svg>
+          </span>
+          <h3>Catering</h3>
+          <p>Bring three generations of flavor to your next event.</p>
+        </div>
+        <div class="feature" data-reveal>
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+          </span>
+          <h3>Events</h3>
+          <p>From the Cinco Fiesta to your celebration, we host.</p>
+        </div>
+        <div class="feature" data-reveal>
+          <span class="feature__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </span>
+          <h3>Happy Hour</h3>
+          <p>4–6 daily (not Saturdays). Best drinks in the QC.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="reviews" id="reviews">
+      <div class="reviews__head">
+        <p class="eyebrow" data-reveal>Join our familia</p>
+        <h2 class="section-title section-title--center" data-reveal>What the Quad Cities say</h2>
+        <p class="reviews__rating" data-reveal>
+          <span class="reviews__stars" aria-hidden="true">★★★★★</span>
+          Rated 4.3 on Google across 1,200+ reviews
+        </p>
+      </div>
+      <div class="swiper reviewsSwiper" data-reveal>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <blockquote class="review">
+              <span class="review__stars" aria-label="5 out of 5 stars">★★★★★</span>
+              <p>"You'll have some of the best food ever! Regardless of location. I've eaten real Mexican in Mexico, Texas, all over the South, West, and Midwest. This is some of the top food hands down."</p>
+              <footer><span class="review__author">Anthony Franklin</span><span class="review__source">Google review</span></footer>
+            </blockquote>
+          </div>
+          <div class="swiper-slide">
+            <blockquote class="review">
+              <span class="review__stars" aria-label="5 out of 5 stars">★★★★★</span>
+              <p>"My favorite place to go! Home away from home! Awesome service and staff! Love bringing new people there to experience it too! Great family friendly environment."</p>
+              <footer><span class="review__author">Helene DeVine</span><span class="review__source">Google review</span></footer>
+            </blockquote>
+          </div>
+          <div class="swiper-slide">
+            <blockquote class="review">
+              <span class="review__stars" aria-label="5 out of 5 stars">★★★★★</span>
+              <p>"You're not going to find better food in the Quad Cities. Ganzo's is where you want to be. Trust me."</p>
+              <footer><span class="review__author">Gerald Whelchel</span><span class="review__source">Google review</span></footer>
+            </blockquote>
+          </div>
+          <div class="swiper-slide">
+            <blockquote class="review">
+              <span class="review__stars" aria-label="5 out of 5 stars">★★★★★</span>
+              <p>"Very nice, great service. The salsa was so good. The food was good."</p>
+              <footer><span class="review__author">Carla Umbarger</span><span class="review__source">Restaurant Guru</span></footer>
+            </blockquote>
+          </div>
+        </div>
+        <div class="reviews__pagination swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- ============ FIESTA / COMMUNITY ============ -->
+    <section class="fiesta" id="fiesta">
+      <div class="fiesta__media">
+        <img src="assets/our-fiesta.jpg" alt="Aerial view of the Ganzo's Cinco de Mayo Fiesta and 5K crowd" loading="lazy" decoding="async" />
+        <div class="fiesta__scrim"></div>
+      </div>
+      <div class="fiesta__content" data-reveal>
+        <p class="eyebrow eyebrow--light">Giving back to the QC</p>
+        <h2 class="section-title section-title--light">Our Cinco de Mayo<br>Fiesta &amp; 5K</h2>
+        <p>We believe it's important to give back to our community and share our heritage. Every year we host a Cinco de Mayo fiesta and 5K to raise money for local charities — and we're proud to have raised over <strong>$50,000</strong> for local non-profits.</p>
+        <a class="btn btn--white btn--lg" href="https://www.ganzos5k.com" target="_blank" rel="noopener">Learn About the 5K</a>
+      </div>
+    </section>
+
+    <!-- ============ VISIT ============ -->
+    <section class="visit" id="visit">
+      <div class="visit__grid">
+        <div class="visit__info" data-reveal>
+          <p class="eyebrow">Stop by &amp; say hola</p>
+          <h2 class="section-title">Visit us</h2>
+
+          <div class="visit__block">
+            <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> Find us</h3>
+            <p>3923 N. Marquette St<br>Davenport, IA 52806</p>
+            <a class="visit__link" href="https://www.google.com/maps?q=Ganzo's+Mexican+Restaurant,+3923+N+Marquette+St,+Davenport,+IA+52806" target="_blank" rel="noopener">Get directions →</a>
+          </div>
+
+          <div class="visit__block">
+            <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.94.36 1.86.7 2.74a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.34-1.27a2 2 0 0 1 2.11-.45c.88.34 1.8.57 2.74.7A2 2 0 0 1 22 16.92z"/></svg> Call us</h3>
+            <p><a class="visit__link" href="tel:563-445-7833">(563) 445-7833</a></p>
+          </div>
+
+          <div class="visit__block">
+            <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg> Hours</h3>
+            <table class="hours" id="hoursTable">
+              <tr data-day="1"><th scope="row">Monday</th><td class="closed">Closed</td></tr>
+              <tr data-day="2"><th scope="row">Tuesday</th><td>11:00 AM – 9:00 PM</td></tr>
+              <tr data-day="3"><th scope="row">Wednesday</th><td>11:00 AM – 9:00 PM</td></tr>
+              <tr data-day="4"><th scope="row">Thursday</th><td>11:00 AM – 9:00 PM</td></tr>
+              <tr data-day="5"><th scope="row">Friday</th><td>11:00 AM – 10:00 PM</td></tr>
+              <tr data-day="6"><th scope="row">Saturday</th><td>11:00 AM – 10:00 PM</td></tr>
+              <tr data-day="0"><th scope="row">Sunday</th><td>11:00 AM – 9:00 PM</td></tr>
+            </table>
+            <p class="visit__happy">Happy Hour 4–6 PM daily (not Saturdays)</p>
+          </div>
+        </div>
+
+        <div class="visit__map" data-reveal>
+          <iframe
+            title="Map to Ganzo's Mexican Restaurant"
+            src="https://www.google.com/maps?q=Ganzo's+Mexican+Restaurant,+3923+N+Marquette+St,+Davenport,+IA+52806&output=embed"
+            width="100%" height="100%" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo-stacked.png" alt="Ganzo's Mexican Restaurant" class="footer__logo" width="200" height="200" loading="lazy" />
+        <p class="footer__tag">Never go home hungry.</p>
+        <p class="footer__thanks">Thank you for supporting our small family owned business, and giving us a chance to show the Quad Cities what three generations of true authentic Mexican food is like.</p>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/ganzosrestaurant/" target="_blank" rel="noopener" aria-label="Ganzo's on Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.facebook.com/ganzosrestaurant" target="_blank" rel="noopener" aria-label="Ganzo's on Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4>Explore</h4>
+        <a href="#story">Our Story</a>
+        <a href="#dishes">Signature Dishes</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#fiesta">Cinco Fiesta</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Visit</h4>
+        <p>3923 N. Marquette St<br>Davenport, IA 52806</p>
+        <a href="tel:563-445-7833">(563) 445-7833</a>
+        <a href="https://order.toasttab.com/online/ganzos" target="_blank" rel="noopener">Order Online</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Hours</h4>
+        <p class="footer__hours">
+          Mon · Closed<br>
+          Tue–Thu · 11a–9p<br>
+          Fri–Sat · 11a–10p<br>
+          Sun · 11a–9p
+        </p>
+      </div>
+    </div>
+    <div class="footer__bar">
+      <p>&copy; <span id="year">2026</span> Ganzo's Mexican Restaurant. All rights reserved.</p>
+      <p class="footer__credit">Website crafted by <strong>Sonrie Mexico</strong></p>
+    </div>
+  </footer>
+
+  <!-- ============ STICKY MOBILE ACTION BAR ============ -->
+  <nav class="actionbar" aria-label="Quick actions">
+    <a href="tel:563-445-7833" aria-label="Call Ganzo's">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.94.36 1.86.7 2.74a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.34-1.27a2 2 0 0 1 2.11-.45c.88.34 1.8.57 2.74.7A2 2 0 0 1 22 16.92z"/></svg>
+      <span>Call</span>
+    </a>
+    <a href="https://www.google.com/maps?q=Ganzo's+Mexican+Restaurant,+3923+N+Marquette+St,+Davenport,+IA+52806" target="_blank" rel="noopener" aria-label="Get directions">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span>Directions</span>
+    </a>
+    <a class="actionbar__primary" href="https://order.toasttab.com/online/ganzos" target="_blank" rel="noopener" aria-label="Order online">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 7h13l3 4v6H3z"/><circle cx="7" cy="17" r="2"/><circle cx="16" cy="17" r="2"/></svg>
+      <span>Order</span>
+    </a>
+  </nav>
+
+  <!-- Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
