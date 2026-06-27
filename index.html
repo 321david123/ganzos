@@ -231,7 +231,7 @@
           <span class="dish__index">01</span>
           <h3 class="dish__title">Carne Asada Tacos</h3>
           <p class="dish__desc">Mexican-style street tacos — tender grilled steak, fresh cilantro and onion, a squeeze of lime, doubled-up corn tortillas. Simple, honest, unforgettable.</p>
-          <span class="dish__price">$12</span>
+          <p class="dish__meta"><span class="dish__price">$12</span><a href="#menu" class="link-underline">On the menu →</a></p>
         </div>
       </article>
 
@@ -244,7 +244,7 @@
           <span class="dish__index">02</span>
           <h3 class="dish__title">Tamale Dinner</h3>
           <p class="dish__desc">House-made tamales steamed in the husk, plated as a full dinner with Mexican rice and refried beans. A recipe handed down, plate after plate, decade after decade.</p>
-          <span class="dish__price">$12.75</span>
+          <p class="dish__meta"><span class="dish__price">$12.75</span><a href="#menu" class="link-underline">On the menu →</a></p>
         </div>
       </article>
 
@@ -257,7 +257,7 @@
           <span class="dish__index">03</span>
           <h3 class="dish__title">Enchilada Dinner</h3>
           <p class="dish__desc">Rolled enchiladas smothered in our slow-simmered red sauce and blanketed in melted cheese, finished with crisp lettuce and pico. Comfort, the Ganzo's way.</p>
-          <span class="dish__price">$13</span>
+          <p class="dish__meta"><span class="dish__price">$13</span><a href="#menu" class="link-underline">On the menu →</a></p>
         </div>
       </article>
     </section>
@@ -284,8 +284,7 @@
 
       <div class="menu__grid">
         <div class="menu__col" data-reveal>
-          <h3 class="menu__section-title">Platos Populares</h3>
-          <p class="menu__section-sub">Popular dishes</p>
+          <h3 class="menu__section-title">Platos Populares <span class="menu__section-sub">Popular dishes</span></h3>
           <ul class="menu__list">
             <li class="menu__item">
               <span class="menu__name">Tamale Dinner</span>
@@ -307,8 +306,7 @@
             </li>
           </ul>
 
-          <h3 class="menu__section-title menu__section-title--mt">Specials</h3>
-          <p class="menu__section-sub">Daily features</p>
+          <h3 class="menu__section-title menu__section-title--mt">Specials <span class="menu__section-sub">Daily features</span></h3>
           <ul class="menu__list">
             <li class="menu__item">
               <span class="menu__name">Mini Macho</span>
@@ -320,8 +318,7 @@
         </div>
 
         <div class="menu__col" data-reveal>
-          <h3 class="menu__section-title">Customer Favorites</h3>
-          <p class="menu__section-sub">Crowd-pleasers from the QC</p>
+          <h3 class="menu__section-title">Customer Favorites <span class="menu__section-sub">From the QC</span></h3>
           <ul class="menu__list menu__list--noprice">
             <li class="menu__item menu__item--simple"><span class="menu__name">Macho Nacho</span><span class="menu__desc">Loaded nachos — a perennial favorite</span></li>
             <li class="menu__item menu__item--simple"><span class="menu__name">Queso Blanco</span><span class="menu__desc">Creamy white cheese dip</span></li>
@@ -365,41 +362,40 @@
 
     <!-- ============ FEATURES ============ -->
     <section class="features" aria-label="What we offer">
+      <div class="features__intro">
+        <p class="eyebrow" data-reveal>The Ganzo's Way</p>
+        <h2 class="section-title" data-reveal>Everything you<br>came in for.</h2>
+      </div>
       <div class="features__grid">
         <div class="feature" data-reveal>
-          <span class="feature__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 7h13l3 4v6H3z"/><circle cx="7" cy="17" r="2"/><circle cx="16" cy="17" r="2"/></svg>
-          </span>
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h13l3 4v6H3z"/><circle cx="7" cy="17" r="2"/><circle cx="16" cy="17" r="2"/></svg>
           <h3>Order Online</h3>
-          <p>Pickup made easy through our Toast ordering page.</p>
+          <p>Pickup, plated to go — straight from our Toast page in a couple taps.</p>
         </div>
         <div class="feature" data-reveal>
-          <span class="feature__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 2a5 5 0 0 1-10 0"/><path d="M7 22a5 5 0 0 1 10 0"/><path d="M7 12a5 5 0 0 0 10 0"/></svg>
-          </span>
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 22h14"/><path d="M5 2h14"/><path d="M17 2a5 5 0 0 1-10 0"/><path d="M7 22a5 5 0 0 1 10 0"/><path d="M7 12a5 5 0 0 0 10 0"/></svg>
           <h3>Full Bar</h3>
-          <p>Margaritas, cervezas and the famous Blue Lagoon.</p>
+          <p>Margaritas, ice-cold cervezas, and the can't-miss Blue Lagoon.</p>
         </div>
         <div class="feature" data-reveal>
-          <span class="feature__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2v8"/><path d="M5 10h14l-1 11H6z"/><path d="M9 6a3 3 0 0 1 6 0"/></svg>
-          </span>
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v8"/><path d="M5 10h14l-1 11H6z"/><path d="M9 6a3 3 0 0 1 6 0"/></svg>
           <h3>Catering</h3>
-          <p>Bring three generations of flavor to your next event.</p>
+          <p>Three generations of family recipes, carried to your next gathering.</p>
         </div>
         <div class="feature" data-reveal>
-          <span class="feature__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
-          </span>
-          <h3>Events</h3>
-          <p>From the Cinco Fiesta to your celebration, we host.</p>
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 11h18"/></svg>
+          <h3>Cinco Fiesta &amp; 5K</h3>
+          <p>Our yearly block party — $50,000+ raised for QC non-profits and counting.</p>
         </div>
         <div class="feature" data-reveal>
-          <span class="feature__icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-          </span>
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
           <h3>Happy Hour</h3>
-          <p>4–6 daily (not Saturdays). Best drinks in the QC.</p>
+          <p>4 to 6, every day but Saturday. The best pour-and-gather in the QC.</p>
+        </div>
+        <div class="feature" data-reveal>
+          <svg class="feature__ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <h3>On N. Marquette</h3>
+          <p>A Davenport fixture since the 1960s — easy to find, hard to leave.</p>
         </div>
       </div>
     </section>
@@ -576,5 +572,6 @@
   <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="script.js"></script>
+<script>/* visibility failsafe: show content even if GSAP is delayed/blocked/throttled */setTimeout(function(){document.querySelectorAll(".reveal,[data-reveal]").forEach(function(e){e.classList.add("is-visible")});document.querySelectorAll("[data-hero-line],.hero__title .line>span,.hero__line,.hero__title .ltr").forEach(function(e){e.style.opacity="1";e.style.transform="none";e.style.visibility="visible"})},2200);</script>
 </body>
 </html>
