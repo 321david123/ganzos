@@ -37,7 +37,7 @@
 
   /* ---------- YEAR ---------- */
   var yearEl = document.getElementById("year");
-  if (yearEl) yearEl.textContent = new Date().getFullYear();
+  if (yearEl) yearEl.textContent = "2026";
 
   /* ---------- NAV: solidify on scroll ---------- */
   var nav = document.getElementById("nav");
